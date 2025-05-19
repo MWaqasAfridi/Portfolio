@@ -1,5 +1,5 @@
 import React from "react";
-import profile_img from "../assets/MyHeroImg.jpg";
+import profile_img from "../assets/myHeroImage.jpg";
 import { Typewriter } from "react-simple-typewriter";
 
 function HeroSec() {
@@ -50,7 +50,7 @@ function HeroSec() {
           <img
             src={profile_img}
             alt="Waqas Profile"
-            className="md:w-80 md:h-80 h-64 w-64 rounded-full object-cover shadow-lg hover:scale-105 transition duration-300"
+            className="md:w-90 md:h-90 h-64 w-64 rounded-full object-contain shadow-lg hover:scale-105 transition duration-300 "
           />
         </div>
       </div>
